@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import GuestForm from './components/GuestForm';
+import GuestForm from './components/Guestform';
 import GuestList from './components/GuestList';
 import './style.css';
 
