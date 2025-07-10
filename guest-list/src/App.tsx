@@ -31,6 +31,11 @@ function App() {
     setGuests(newGuests);
   };
 
+  const removeGuest = (id: string) => {
+    const newGuests = guests.filter((guest) => guest.id !== id);
+    setGuests(newGuests);
+  };
+
   const clearAll = () => {
     setGuests([]);
   };
